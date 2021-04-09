@@ -1,0 +1,8 @@
+
+##     gc - git add -all + git commit
+
+   git add --all
+   git commit -m "${@:2}"
+
+
+

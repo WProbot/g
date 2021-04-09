@@ -1,0 +1,8 @@
+
+##   spst - remote ps grep
+
+  ssh -t $2  "ps fax | grep $3 | grep -v grep"
+
+
+
+

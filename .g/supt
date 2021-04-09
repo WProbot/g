@@ -1,0 +1,9 @@
+
+##   supt - ssh $1 uptime -p
+
+  ssh -t $2 uptime -p
+
+
+
+
+
