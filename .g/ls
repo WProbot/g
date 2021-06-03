@@ -1,6 +1,6 @@
 
 ##     ls - list
 
-  ls $GDIR
+  test -d $GDIR && ls $GDIR
 
 
