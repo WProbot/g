@@ -1,3 +1,22 @@
-grep -h "^##" .g/*
 
+if [ -d     $GDIR ]
+then
+  grep -H "^##"  $GDIR/*
+fi
+
+if [ -d    ~/$GDIR ]
+then
+  grep -H "^##" ~/$GDIR/*
+fi
+
+
+if [ -d     /usr/local/etc/g ]
+then
+  grep -H "^##"  /usr/local/etc/g*
+fi
+
+if [ -d     /etc/g ]
+then
+  grep -H "^##"  /etc/g/*
+fi
 
